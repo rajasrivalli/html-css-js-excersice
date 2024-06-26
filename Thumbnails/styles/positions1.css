@@ -1,0 +1,228 @@
+body {
+  height: 3000px;
+}
+
+.profile {
+  display: flex;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(196, 187, 187);
+}
+
+.profile-pic {
+  display: flex;
+}
+
+.murugan {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 120px;
+  font-family: arial;
+  margin-top: 5px;
+}
+
+.bio {
+  display: flex;
+  flex: 1;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+  align-self: center;
+}
+
+.buttons {
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  background-color: rgb(45, 140, 218);
+  color: white;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  border: none;
+  font-family: arial;
+}
+
+.message {
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 35px;
+  margin-left: 8px;
+  font-size: 17px;
+  border: none;
+  font-family: arial;
+}
+
+.side-bars {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 100px;
+  background-color: rgb(40, 39, 39);
+}
+
+.muruga,
+.shiv,
+.durga {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.side-bar2 {
+  position: fixed;
+  left: 100px;
+  top: 60px;
+  bottom: 0;
+  background-color: rgb(90, 85, 85);
+  width: 230px;
+  color: rgb(249, 246, 246);
+  font-family: arial;
+}
+
+.texts {
+  margin-left: 15px;
+}
+
+.info {
+  display: flex;
+  font-size: 20px;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 30px;
+  color: rgb(210, 193, 193);
+}
+
+.one,
+.two,
+.three {
+  font-size: 20px;
+  color: rgb(210, 193, 193);
+}
+
+.close-button {
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  width: 25px;
+  height: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.blank {
+  background-color: gray;
+  width: 320px;
+  height: 180px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.shopping {
+  display: inline-block;
+}
+
+.photo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 500px;
+  margin-top: 200px;
+}
+
+.pic {
+  width: 300px;
+}
+
+.sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.addto-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(16, 14, 14, 0.18);
+  width: 300px;
+  height: 100px;
+  display: flex;
+}
+
+.addtocart {
+  width: 110px;
+  height: 40px;
+  align-self: center;
+  margin-left: 100px;
+  font-size: 15px;
+  border-color: black;
+}

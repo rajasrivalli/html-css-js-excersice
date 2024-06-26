@@ -1,0 +1,144 @@
+.image {
+  position: relative;
+}
+
+.video-thumbnail {
+  width: 100%;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  position: relative;
+}
+
+.channel-picture {
+  position: relative;
+  display: flex;
+}
+
+.channel-picture .tooltip {
+  border: 1px solid rgb(204, 200, 200);
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.channel-picture:hover .tooltip {
+  opacity: 1;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  align-self: center;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.tooltips {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: left;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: Roboto, arial;
+  font-weight: 500;
+  position: absolute;
+  left: 70px;
+  margin-top: 3px;
+}
+
+.stat {
+  font-family: Roboto, arial;
+  position: absolute;
+  bottom: -0;
+  left: 70px;
+  top: 25px;
+  margin-top: 5px;
+}
+
+.profile-picture {
+  height: 36px;
+  border-radius: 50px;
+  margin-right: 8px;
+  margin-top: 9px;
+}
+
+.title {
+  font-size: 14px;
+  width: 250px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 9px;
+  font-weight: 500;
+}
+
+.math {
+  width: 260px;
+}
+
+.circle {
+  width: 260px;
+}
+
+.author {
+  font-size: 12px;
+  color: rgb(100, 99, 99);
+  margin-bottom: 4px;
+}
+
+.stats {
+  font-size: 12px;
+  color: rgb(100, 99, 99);
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+  font-family: Roboto, arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+}

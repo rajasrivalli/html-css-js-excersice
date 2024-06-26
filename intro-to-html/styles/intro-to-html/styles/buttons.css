@@ -1,0 +1,247 @@
+.subscribe-button {
+  background-color: rgb(180, 6, 6);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+
+.subscribe-button:active {
+  opacity: 0.4;
+}
+
+.join-button {
+  background-color: white;
+  color: rgb(78, 139, 245);
+  border-color: rgb(78, 139, 245);
+  border-radius: 3px;
+  font-size: 20;
+  cursor: pointer;
+  margin-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(78, 139, 245);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.4;
+}
+
+.tweet-button {
+  background-color: rgba(15, 150, 223, 0.733);
+  color: white;
+  border-radius: 30px;
+  font-size: 20;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: box-shadow 0.15;
+}
+
+.tweet-button:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.requestnow-button {
+  background-color: black;
+  color: white;
+  height: 60;
+  width: 150;
+  font-size: 15;
+  cursor: pointer;
+  margin: 10;
+  transition: opacity 0.15s;
+}
+
+.requestnow-button:hover {
+  opacity: 0.2;
+}
+
+.requestnow-button:active {
+  opacity: 0.2;
+}
+
+.addtocart-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 50;
+  width: 250;
+  border-radius: 3pc;
+  font-size: large;
+  border: none;
+  margin: 10;
+}
+
+.addtocart-button:hover {
+  background-color: aqua;
+}
+
+.addtocart-button:active {
+  background-color: brown;
+}
+
+.signup-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 50;
+  width: 130;
+  border: none;
+  border-radius: 5px;
+  font-size: 20;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  font-size: x-large;
+}
+
+.signup-button:active {
+  opacity: 0.15;
+}
+.getstarted-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 60;
+  width: 150;
+  border: none;
+  border-radius: 5px;
+  font-size: 19;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10;
+}
+
+.getstarted-button:hover {
+  opacity: 0.15;
+  color: rgb(225, 229, 232);
+}
+
+.download-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 60;
+  width: 150;
+  border-radius: 3px;
+  font-size: 20;
+  margin: 10;
+}
+
+.download-button:hover {
+  background-color: aquamarine;
+}
+
+.download-button:active {
+  background-color: black;
+}
+
+.apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 60;
+  width: 340;
+  border: none;
+  border-radius: 50px;
+  font-size: 20;
+  font-weight: bold;
+  margin: 10;
+  transition: font-size 1s, box-shadow 1s;
+}
+
+.apply-button:hover {
+  box-shadow: 10px 10px 10px rgb(0, 0, 0.15);
+  font-size: 25px;
+}
+
+.apply-button:active {
+  background: transparent;
+  color: black;
+}
+
+.save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 60;
+  width: 150;
+  font-size: 20;
+  border-color: rgb(10, 102, 194);
+  border-radius: 3pc;
+  font-weight: bold;
+  transition: font-size 1s;
+}
+
+.save-button:hover {
+  background-color: rgb(75, 104, 104);
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.save-button:active {
+  background-color: rgb(10, 102, 194);
+}
+
+a {
+  color: rgb(0, 113, 133);
+}
+
+.h2-button {
+  color: rgb(0, 118, 0);
+}
+
+.addtocart-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 50;
+  width: 200;
+  border: none;
+  border-radius: 33px;
+  font-size: 25;
+}
+
+.addtocart-button:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.addtocart-button:active {
+  opacity: 0.4;
+}
+
+.buynow-button {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  height: 50;
+  width: 200;
+  border: none;
+  border-radius: 33px;
+  font-size: 25;
+}
+
+.buynow-button:hover {
+  background-color: azure;
+}
+
+.buynow-button:active {
+  background-color: orange;
+}

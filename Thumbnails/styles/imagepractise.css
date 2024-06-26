@@ -1,0 +1,107 @@
+.murugan-image {
+  width: 200px;
+  border-radius: 35px;
+}
+
+.shiv-muru {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  object-position: left;
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;
+}
+
+.durga-ma {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textbox {
+  font-size: 20px;
+  border-radius: 5px;
+  color: gray;
+  border-color: gray;
+}
+
+.textbox:focus {
+  outline: none;
+}
+
+.searchbox {
+  font-size: 18px;
+  width: 500px;
+  padding-top: 7px;
+  border-radius: 20px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  border: none;
+  box-shadow: 1px 1px 1px rgb(203, 198, 198);
+}
+
+.searchbox:focus {
+  outline: none;
+}
+
+.email-text {
+  font-family: arial;
+  color: gray;
+}
+
+.text {
+  width: 300px;
+  height: 25px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.privacy-text {
+  font-family: arial;
+  color: gray;
+  font-size: 14px;
+}
+
+.agree-button {
+  border-radius: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 110px;
+  padding-right: 110px;
+  background-color: rgb(13, 106, 198);
+  color: whitesmoke;
+  font-size: 20px;
+  border: none;
+}
+
+.ma {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.query-text {
+  color: gray;
+  font-family: arial;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 150px;
+}
+
+.tweet-button {
+  background-color: rgb(55, 147, 216);
+  color: whitesmoke;
+  border-radius: 35px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  border: none;
+}

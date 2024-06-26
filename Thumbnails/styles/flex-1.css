@@ -1,0 +1,75 @@
+.inbox {
+  font-size: 17px;
+  color: rgb(153, 152, 152);
+  margin-left: 15px;
+  font-family: arial;
+  margin-top: 10px;
+}
+
+.content {
+  flex-direction: row;
+  display: flex;
+  font-family: arial;
+  /* justify-content: space-between; */
+}
+
+.durga-ma {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-bottom: 0px; */
+}
+
+.timings {
+  font-size: 15px;
+  color: gray;
+  margin-right: 0px;
+}
+
+.time {
+  font-size: 15px;
+  color: rgb(153, 152, 152);
+  margin-top: 3px;
+}
+
+.sale {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.message {
+  font-size: 18px;
+  color: rgb(153, 152, 152);
+  margin-top: 3px;
+}
+
+.all-inboxes {
+  border-style: solid;
+  border-color: rgb(198, 196, 196);
+  border-radius: 3px;
+  width: 470px;
+  height: 350px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.subject {
+  display: flex;
+  justify-content: space-between;
+}

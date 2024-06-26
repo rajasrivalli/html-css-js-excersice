@@ -1,0 +1,25 @@
+p {
+  font-family: arial;
+}
+.link-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.email-text {
+  color: gray;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.dev-description {
+  font-size: 19px;
+}
+
+.top-text {
+  font-size: 19px;
+}
+
+.mail-text {
+  color: rgb(0, 166, 255);
+}

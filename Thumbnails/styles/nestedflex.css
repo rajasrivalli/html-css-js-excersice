@@ -1,0 +1,89 @@
+.first-box {
+  border: 1px solid black;
+  width: 500px;
+}
+
+.second-box {
+  display: flex;
+}
+
+.shiv-muru {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  display: flex;
+  margin-right: 10px;
+}
+
+.name {
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 8px;
+}
+
+.email {
+  font-family: arial;
+  font-size: 18px;
+  color: gray;
+  margin-left: 8px;
+}
+
+.dev {
+  font-family: arial;
+  font-size: 18px;
+  width: 400px;
+  margin-top: 5px;
+  margin-left: 8px;
+  margin-bottom: 15px;
+}
+
+.third-box {
+  display: flex;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 8px;
+  width: 380px;
+  height: 100px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.blank {
+  background-color: rgb(201, 201, 201);
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.last-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+.dot-com {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-family: arial;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-family: arial;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 300px;
+}

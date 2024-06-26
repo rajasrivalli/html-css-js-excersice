@@ -1,0 +1,39 @@
+.search-bar {
+  display: block;
+}
+
+.video-info {
+  display: grid;
+}
+
+.pic-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.video-thumbnail {
+  width: 400px;
+}
+
+.video-channelpic {
+  width: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.video-heading {
+  width: 300px;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: 20px;
+}
+
+.author-name {
+  font-family: arial;
+  font-weight: normal;
+}
+
+.video-timing {
+  font-family: arial;
+  font-weight: normal;
+}

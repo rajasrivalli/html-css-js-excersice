@@ -1,0 +1,92 @@
+.square-box {
+  background-color: red;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.circle {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 500px;
+}
+
+.para-text {
+  border-width: 1px;
+  border-style: solid;
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 35px;
+  width: 250px;
+  border-color: rgba(150, 150, 150);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.umusic-paras {
+  background-color: rgb(47, 46, 46);
+  color: whitesmoke;
+  font-family: arial;
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: inline-block;
+  padding-right: 30px;
+  margin: 30px;
+}
+
+.music {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.music-card {
+  color: rgb(157, 151, 151);
+  width: 360px;
+}
+
+.ma {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.query-text {
+  color: gray;
+  font-family: arial;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 150px;
+}
+
+.tweet-button {
+  background-color: rgb(55, 147, 216);
+  color: whitesmoke;
+  border-radius: 35px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  border: none;
+}
+
+.durga-ma {
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgb(200, 198, 198);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  display: inline-block;
+  border-radius: 5px;
+}

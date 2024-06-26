@@ -1,0 +1,166 @@
+.tahoma-style {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.deal-text {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
+}
+
+.saleend-text {
+  font-family: arial;
+  font-style: italic;
+  color: red;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 7px;
+}
+
+.course-title {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.pro-text {
+  margin-top: 7px;
+  font-family: Verdana;
+  color: gray;
+  font-size: 20px;
+}
+
+.course-description {
+  width: 450;
+  font-family: verdana;
+  font-size: 25px;
+}
+
+.start-button {
+  background-color: rgb(3, 151, 3);
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.start-button:hover {
+  background-color: rgb(137, 187, 137);
+  cursor: pointer;
+}
+
+.shopping-query {
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.apple-text {
+  font-family: arial;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.learn-link {
+  text-align: center;
+  color: rgb(0, 145, 255);
+}
+
+.learn-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.new-text {
+  font-family: arial;
+  text-align: center;
+  color: orange;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.mac-text {
+  font-family: arial;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.15px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+.super-text {
+  font-family: arial;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0.15px;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.rate-text {
+  font-family: arial;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  font-family: arial;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translate(+470%, +20%);
+}
+
+.value-text {
+  font-family: arial;
+  font-size: 35;
+  margin-bottom: 0px;
+}
+
+.usd-value {
+  color: gray;
+  font-size: 18px;
+  font-family: arial;
+}
+
+.today-text {
+  color: green;
+  font-size: 20;
+  font-family: arial;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.last-text {
+  color: gray;
+  font-size: 20px;
+  font-family: arial;
+  margin-top: 0px;
+}
+
+.strong-text {
+  color: red;
+}

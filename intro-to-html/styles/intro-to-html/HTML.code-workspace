@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "2.1 Heading Element"
+    },
+    {
+      "path": "2.2 Paragraph Element"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "2.1 Heading Element"
+  }
+}

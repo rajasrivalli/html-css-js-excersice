@@ -1,0 +1,61 @@
+.shiva,
+.durga,
+.suriya,
+.murugan {
+  background-color: white;
+  display: grid;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.card-stat {
+  color: gray;
+  margin-top: 0px;
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.addfriend-button {
+  background-color: rgb(55, 131, 237);
+  color: whitesmoke;
+  border-radius: 5px;
+  padding-left: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 17px;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+}
+
+.body {
+  background-color: rgb(146, 146, 226);
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
+}

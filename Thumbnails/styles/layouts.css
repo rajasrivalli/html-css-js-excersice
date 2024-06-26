@@ -1,0 +1,41 @@
+p {
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.naruto-image {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.title,
+.author,
+.stats {
+  font-size: 25px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+  width: 500px;
+  margin-left: 10px;
+}
+
+.author,
+.stats {
+  font-size: 15px;
+  color: rgb(118, 117, 117);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.youtube {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-name {
+  display: inline-block;
+  vertical-align: top;
+}
